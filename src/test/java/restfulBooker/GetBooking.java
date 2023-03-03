@@ -13,7 +13,7 @@ public class GetBooking {
 			.all()
 			.baseUri("https://restful-booker.herokuapp.com")
 			.basePath("/booking/{id}")
-			.pathParam("id", 12)
+			.pathParam("id", 1)
 		.when()
 			.get()
 		.then()
